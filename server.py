@@ -2,7 +2,7 @@ import socket
 
 #42070 as port
 #main port (CHAD PORT CUZ WE CHADS)
-CHAD_PORT = 19132
+CHAD_PORT = 443
 
 ## SERVER ##
 def start_server():
@@ -14,7 +14,7 @@ def start_server():
   
   #starts listening for incoming connections
   listen_socket.listen()
-  print("Server listening on port 42070")
+  print("Server listening on port", CHAD_PORT)
   
   #Creates new connection socket (conn) and addr (contains both IP and port of connection)
   conn , addr = listen_socket.accept()
