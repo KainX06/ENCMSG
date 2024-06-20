@@ -5,7 +5,7 @@ import socket
 
 #42070 as port
 #main port (CHAD PORT CUZ WE CHADS)
-CHAD_PORT = 19132
+CHAD_PORT = 443
 
 global destination_ip
 destination_ip = "placeholder"
